@@ -3,7 +3,7 @@
 
 环境配置要求:
 
-理论上只需要pytorch和matplotlib即可，若有遗漏，请对照下面的列表
+理论上只需要pytorch的gpu版本和matplotlib即可，若有遗漏，请对照下面的列表
 
     "Name                    Version                   Build  Channel\n",
     "blas                      1.0                         mkl\n",
