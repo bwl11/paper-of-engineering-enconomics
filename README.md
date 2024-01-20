@@ -1,28 +1,10 @@
 #     paper-of-engineering-enconomics
 基于MLP的市场预测方法
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "9417b930",
-   "metadata": {},
-   "source": [
-    "# 环境配置要求"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "b6aad9ed",
-   "metadata": {},
-   "source": [
-    "理论上只需要pytorch和matplotlib即可，若有遗漏，请对照下面的列表"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "d5f619f6",
-   "metadata": {},
-   "source": [
+
+环境配置要求:
+
+理论上只需要pytorch和matplotlib即可，若有遗漏，请对照下面的列表
+
     "Name                    Version                   Build  Channel\n",
     "blas                      1.0                         mkl\n",
     "bottleneck                1.3.5            py39h080aedc_0\n",
@@ -155,35 +137,10 @@
     "zipp                      3.11.0           py39haa95532_0\n",
     "zlib                      1.2.13               h8cc25b3_0\n",
     "zstd                      1.5.5                hd43e919_0"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "9a2efa02",
-   "metadata": {},
-   "source": [
-    "# HOW TO USE"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e323f8d2",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "根目录下的main.py对应Shanghai Lane House Price数据集，直接运行即可\n",
-    "若要运行Shanghai-listing，则运行对应文件夹中的main.py"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "mytorchkernel",
-   "language": "python",
-   "name": "mytorchkernel"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+
+  HOW TO USE
+
+    根目录下的main.py对应Shanghai Lane House Price数据集，直接运行即可
+    
+    若要运行Shanghai-listing，则运行对应文件夹中的main.py
+
